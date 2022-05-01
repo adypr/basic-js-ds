@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node src/binary-search-tree.js"
   },
   "repository": {
     "type": "git",
