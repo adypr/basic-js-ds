@@ -40,6 +40,7 @@ class Queue {
     if (this.list) {
       let res = this.list.value;
       this.list = this.list.next;
+      this.length -= 1;
       return res;
     }
   }
